@@ -16,8 +16,3 @@ class parametricSphere(parametricObject):
         P.set(2,0,self.__radius*cos(u))
         return P
 
-    def setRadius(self,radius):
-        self.__radius = radius
-
-    def getRadius(self):
-        return self.__radius
